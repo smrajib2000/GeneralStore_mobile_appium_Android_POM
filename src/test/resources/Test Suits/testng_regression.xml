@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="General Store Test Suite" verbose="1">
+
+	<listeners>
+		<listener class-name = "com.qa.appium.generalStore.listeners.ExtentReportListener"/>
+	
+	</listeners>
+<test name="General Store Test" allow-return-values="true">
+
+   <classes>
+       <!--  	<class name="com.qa.appium.generalStore.tests.LetsShopPageTest" ></class> -->
+        <class name="com.qa.appium.generalStore.tests.productPageTest" ></class>  
+        
+    </classes> 
+    
+   <!--  <packages>
+    	<package name ="com.qa.appium.generalStore.tests.*"/> 	
+    
+    </packages>  -->
+</test>
+</suite>

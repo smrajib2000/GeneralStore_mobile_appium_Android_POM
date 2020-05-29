@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [General Store Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.appium.generalStore.listeners.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="General Store Test(failed)">
+    <classes>
+      <class name="com.qa.appium.generalStore.tests.productPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyProductsAddedInTheCartTest"/>
+        </methods>
+      </class> <!-- com.qa.appium.generalStore.tests.productPageTest -->
+    </classes>
+  </test> <!-- General Store Test(failed) -->
+</suite> <!-- Failed suite [General Store Test Suite] -->

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47850" started-at="2020-05-04T07:26:08Z" finished-at="2020-05-04T07:26:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47850" started-at="2020-05-04T07:26:08Z" finished-at="2020-05-04T07:26:55Z">
+      <class name="com.qa.appium.generalStore.tests.productPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="setUp" is-config="true" duration-ms="19075" started-at="2020-05-04T07:26:08Z" finished-at="2020-05-04T07:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyProductPageTitleTest()[pri:1, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="verifyProductPageTitleTest" duration-ms="1738" started-at="2020-05-04T07:26:27Z" finished-at="2020-05-04T07:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductPageTitleTest -->
+        <test-method status="PASS" signature="productsAddIntheCartTest(java.lang.String)[pri:2, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="productsAddIntheCartTest" duration-ms="3206" started-at="2020-05-04T07:26:29Z" data-provider="getAddCartData" finished-at="2020-05-04T07:26:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Air Jordan 1 Mid SE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAddIntheCartTest -->
+        <test-method status="PASS" signature="productsAddIntheCartTest(java.lang.String)[pri:2, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="productsAddIntheCartTest" duration-ms="6841" started-at="2020-05-04T07:26:32Z" data-provider="getAddCartData" finished-at="2020-05-04T07:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nike Blazer Mid '77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAddIntheCartTest -->
+        <test-method status="PASS" signature="productsAddIntheCartTest(java.lang.String)[pri:2, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="productsAddIntheCartTest" duration-ms="6718" started-at="2020-05-04T07:26:39Z" data-provider="getAddCartData" finished-at="2020-05-04T07:26:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Air Jordan 9 Retro]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAddIntheCartTest -->
+        <test-method status="PASS" signature="productsAddIntheCartTest(java.lang.String)[pri:2, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="productsAddIntheCartTest" duration-ms="6870" started-at="2020-05-04T07:26:45Z" data-provider="getAddCartData" finished-at="2020-05-04T07:26:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PG 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAddIntheCartTest -->
+        <test-method status="PASS" signature="productsAddInTheCartTest()[pri:3, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="productsAddInTheCartTest" duration-ms="526" started-at="2020-05-04T07:26:52Z" finished-at="2020-05-04T07:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productsAddInTheCartTest -->
+        <test-method status="PASS" signature="gotToTheCartTest()[pri:4, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="gotToTheCartTest" duration-ms="44" started-at="2020-05-04T07:26:53Z" finished-at="2020-05-04T07:26:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gotToTheCartTest -->
+        <test-method status="PASS" signature="verifycartPageTitleTest()[pri:5, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="verifycartPageTitleTest" duration-ms="2064" started-at="2020-05-04T07:26:53Z" finished-at="2020-05-04T07:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycartPageTitleTest -->
+        <test-method status="FAIL" signature="verifyProductsAddedInTheCartTest()[pri:6, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="verifyProductsAddedInTheCartTest" duration-ms="279" started-at="2020-05-04T07:26:55Z" finished-at="2020-05-04T07:26:55Z">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA[org.testng.Assert.assertEquals(DD)V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: org.testng.Assert.assertEquals(DD)V
+at com.qa.appium.generalStore.tests.productPageTest.verifyProductsAddedInTheCartTest(productPageTest.java:105)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsAddedInTheCartTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.appium.generalStore.tests.productPageTest@166e5bd]" name="tearDown" is-config="true" duration-ms="118" started-at="2020-05-04T07:26:55Z" finished-at="2020-05-04T07:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.appium.generalStore.tests.productPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
